@@ -1,5 +1,5 @@
 ---
-date: 2016-03-21 23:20:00 UTC
+date: 2016-03-21 23:20:00 +0800
 title: Kinect 数据录制与回放
 description: 最近在实验室用深度相机做一些三维重建的研究，主要的实验场景在宝山区的仓库。学校到仓库的来回车程大概有三四个小时，如果每次都要到实际场景中来测试算法，这真是着实令人头疼。所以我想着，如果能用 Kinect 把仓库中的场景录制下来，回来直接用录好的数据来测试算法，那不就不用来回跑了吗？
 permalink: /posts/record-and-playback-for-kinect/
@@ -131,7 +131,7 @@ namespace Microsoft.Samples.Kinect.DepthBasics
 
 ## 参考文献
 
-- [Stackoverflow - Kinect v2, read out data from .xef files](http://stackoverflow.com/questions/27280689/kinect-v2-read-out-data-from-xef-files)
+- [Stackoverflow - Kinect v2, read out data from .xef files](https://stackoverflow.com/questions/27280689/kinect-v2-read-out-data-from-xef-files)
 - [MSDN - Sample codes from Carmine](https://social.msdn.microsoft.com/Forums/en-US/59c97d1e-79f6-4dd0-8fae-73080a2c7b18/documentation-for-microsoftkinecttools-api?forum=kinectv2sdk&prof=required)
 
 [1]: {{ site.static_url }}/posts/kinect-studio.png

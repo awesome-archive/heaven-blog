@@ -1,5 +1,5 @@
 ---
-date: 2015-07-16 19:16:30 UTC
+date: 2015-07-16 19:16:30 +0800
 title: 给迷茫的自学者指一条路
 description: 不管是从零开始接触编程，还是从大学踏入社会，一个人踏入一个全新的领域时总是会产生迷茫的感觉。这篇文章的目的不在于教授自学者们学习的方法，仅仅把我自己的一些学习和总结的方法分享出来，以供各位参考，希望对你们有所帮助。
 permalink: /posts/method-of-self-learning/
@@ -11,10 +11,10 @@ labels: ["自学", "思维导图"]
 
 我会以四个角度给你们介绍四个工具，**XMind**、**Trello**、**Pocket** 和 **Evernote**；我相信这些工具大家也大多耳熟能详，而我会讲述我是如何使用这些工具，以及这些工具是如何相辅相成的。可能因为我接触前端领域的知识较多，例子中也会以前端为主，但知识和方法都是相通的，所以这应该也不会成为什么大问题。
 
-##1. 建立大局观：思维导图
+## 1. 建立大局观：思维导图
 
 自学者们在没有得到指导的情况下通常会对未来行走的方向一片迷茫，此刻最重要的是建立起**大局观**，也就是在宏观的角度建立起未来的蓝图。
-要做到这一点，思维导图 (Mind Map) 是个很好的工具。我自己比较常用的是 **[XMind](http://www.xmind.net/cn/)**，免费版在大多数情况已经够用了。
+要做到这一点，思维导图 (Mind Map) 是个很好的工具。我自己比较常用的是 **[XMind](https://www.xmind.net/cn/)**，免费版在大多数情况已经够用了。
 **百度脑图** 是一个在线的思维导图工具，还支持同步到百度云；如果想用于分享的话，使用百度脑图也是不错的选择。
 
 ![xmind][1]
@@ -26,13 +26,13 @@ labels: ["自学", "思维导图"]
 
 - [拔赤的总结](https://camo.githubusercontent.com/6797bdc1a11d35369611c817bbd5dae9a162d775/68747470733a2f2f7261772e6769746875622e636f6d2f4a61636b736f6e5469616e2f666b732f6d61737465722f666967757265732f666b732e6a7067)
 - [朴灵的 fks](https://github.com/JacksonTian/fks)
-- [大漠的总结](http://www.w3cplus.com/sites/default/files/blogs/2015/1506/js-in-one-pic.png)
+- [大漠的总结](https://www.w3cplus.com/sites/default/files/blogs/2015/1506/js-in-one-pic.png)
 
 但最最重要的是，你必须建立**属于你自己的**思维导图！也许它一开始并不那么完整，一开始你只能做出一张很小的图，但那也就够了。
 如果直接把别人的一大张图拿来作为自己的蓝图，那么你依旧是迷茫而不知所措的。任何领域的知识都是汪洋大海，你永远不能指望能够完全掌握所有知识。
 所以你只需要在你学习的过程中，不断添加、修正、完善的你的导图就好，最理想的学习状态就是**保持自己的节奏**。
 
-##2. 知道自己该做什么：Trello
+## 2. 知道自己该做什么：Trello
 
 有了大局观，就要着眼于当下，踏踏实实地走出每一步了。这时我推荐你们使用 **[Trello](https://trello.com/)**，
 它好处在于同时支持网页版和 App，不管在哪里都可以很方便的查看。而且 Trello 天然支持 4 层树状结构，很适合与思维导图的树状结构对应。
@@ -51,7 +51,7 @@ labels: ["自学", "思维导图"]
 类似于上图的做法，你可以将你需要做的事分成几类，以便于你真正想学习时有的放矢。在每一个 Card 中，你都能添加一些详细的信息，能添加标签、描述，还能加 Checklist！
 可我还是建议你不要赋予 Trello 太多的责任，我觉得 Trello 作用应该局限于梳理待办事项，而已经得到的知识或者想要总结的东西，应该借助于下面要介绍的两个工具。
 
-##3. 对文章进行整理归类：Pocket
+## 3. 对文章进行整理归类：Pocket
 
 在学习知识的过程中，你总是会参考不少的文章，而某些非常精彩的文章，你总是会想要记录下来的。有些人会使用书签，而这是最糟糕的做法。
 因为你想要检索内容的时候，你几乎没法从一堆书签的名字中找到你想要的内容，而且你也很难维护日益增长的书签数目。
@@ -66,7 +66,7 @@ labels: ["自学", "思维导图"]
 首先在我自己使用的体验上来说，Evernote 剪藏出来的文章比起 Pocket 剪辑出来的显示效果要糟糕很多；
 其次，我个人也不太喜欢赋予一个工具太多职责，在用过一段时间剪藏后，我发现我的 Evernote 变得愈加混乱，有时也很难把某一篇文章简单地归类到某本笔记本中，这让我非常困扰。
 
-##4. 记录学习的体会：Evernote
+## 4. 记录学习的体会：Evernote
 
 ![evernote][5]
 
@@ -75,9 +75,9 @@ labels: ["自学", "思维导图"]
 因此 Evernote 也对应于思维导图的结构来创建笔记本组和笔记本。
 
 在 Evernote 中，你可以记录你学习的过程，总结一些相似知识之间的关联，从而形成自己的观点。你还可以将一些你觉得写的比较不错的文章发布到你的博客上与大家一起分享。
-另外推荐一个付费的工具 [马克飞象](http://maxiang.info/)。依靠它，你就可以使用 Markdown 来编写你的笔记啦，没用过的同学打开试试吧！~
+另外推荐一个付费的工具 [马克飞象](https://maxiang.io/)。依靠它，你就可以使用 Markdown 来编写你的笔记啦，没用过的同学打开试试吧！~
 
-##总结
+## 总结
 
 今天给大家介绍的是我个人的学习方法，主要就是借助了 **XMind**、**Trello**、**Pocket** 和 **Evernote** 四个工具来管理我的知识树。
 不管怎么样，希望对大家有所帮助吧！如果你有什么想法想要交流，欢迎直接在下面的评论框中留言。
@@ -86,20 +86,20 @@ labels: ["自学", "思维导图"]
 
 #### 2015.10.22
 
-根据 [@普罗米修斯君](http://weibo.com/u/3140194393) 与 [@Cuilei](http://www.zhihu.com/people/cuilei) 等朋友的建议，添加几个可以作为替代的同类软件：
+根据 [@普罗米修斯君](https://weibo.com/u/3140194393) 与 [@Cuilei](https://www.zhihu.com/people/cuilei) 等朋友的建议，添加几个可以作为替代的同类软件：
 
 - Trello 的同类软件
     - [Worktile](https://worktile.com/)
     - [奇妙清单](https://www.wunderlist.com/zh/)
-    - [Doit.im](http://doit.im/cn/) (付费)
+    - [Doit.im](https://doit.im/cn/) (付费)
     - [滴答清单](https://www.dida365.com)
 - Evernote 的同类软件
-    - [OneNote](http://www.onenote.com/)
-    - [为知笔记](http://www.wiz.cn/)
-    - [有道云笔记](http://note.youdao.com/)
+    - [OneNote](https://www.onenote.com/)
+    - [为知笔记](https://www.wiz.cn/)
+    - [有道云笔记](https://note.youdao.com/)
 
-[1]: {{ site.qiniu_static_url }}/xmind.png-h400
-[2]: {{ site.qiniu_static_url }}/trello-boards.png-h400
-[3]: {{ site.qiniu_static_url }}/trello-lists.png-h400
-[4]: {{ site.qiniu_static_url }}/pocket.png-h400
-[5]: {{ site.qiniu_static_url }}/evernote.png-h100
+[1]: {{ site.static_url }}/posts/xmind.png!h400
+[2]: {{ site.static_url }}/posts/trello-boards.png!h400
+[3]: {{ site.static_url }}/posts/trello-lists.png!h400
+[4]: {{ site.static_url }}/posts/pocket.png!h400
+[5]: {{ site.static_url }}/posts/evernote.png!h100

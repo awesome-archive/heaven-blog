@@ -1,5 +1,5 @@
 ---
-date: 2016-02-27 13:20:00 UTC
+date: 2016-02-27 13:20:00 +0800
 title: 为你的博客添加访问量统计
 description: 相信很多程序员朋友们都拥有了自己的技术博客。像 Hexo, Jekyll 这样的静态网站生成器甚是好用，而对于相对动态的内容，比如评论框，也有诸如多说和 Disqus 的工具可以使用。但是针对博客的访问量统计，却没有什么可用的工具。很多同学在我的博客中留言问我，我的博文中显示的访问量是怎么做到的？我曾经尝试依靠百度统计是不是能解决这个问题，然而我失败了。于是我自己用 PHP 写了一个很简单的服务来完成这件事，经过一次重构，我把它命名为 Hit Kounter。
 permalink: /posts/introduction-to-hit-kounter/
@@ -7,7 +7,7 @@ key: 10035
 labels: [博客, JavaScript, PHP]
 ---
 
-> **2016.04.23 通告：** Hit Kounter 原本部署于 SAE 上，而近期 SAE 针对使用 MySQL 的应用开始收费。本项目只是一个本人使用业余时间开发的小工具；它本身包含的功能也很精简，并不适合使用付费服务。所以我已经将 Hit Kounter 服务迁移至 **LeanCloud** 上，有兴趣的同学请移步最新的一篇博文 [博客访问量统计工具 Hit Kounter v0.2](/posts/introduction-to-hit-kounter-lc) 查看最新版本的使用方法。原本部署在 SAE 上的服务预计在 **五一假期** 后下线，对已经使用 Hit Kounter 的一些用户，我深感抱歉！
+> **2016.04.23 通告：** Hit Kounter 原本部署于 SAE 上，而近期 SAE 针对使用 MySQL 的应用开始收费。本项目只是一个本人使用业余时间开发的小工具；它本身包含的功能也很精简，并不适合使用付费服务。所以我已经将 Hit Kounter 服务迁移至 **LeanCloud** 上，有兴趣的同学请移步最新的一篇博文 [博客访问量统计工具 Hit Kounter v0.3](/posts/introduction-to-hit-kounter-lc) 查看最新版本的使用方法。原本部署在 SAE 上的服务预计在 **五一假期** 后下线，对已经使用 Hit Kounter 的一些用户，我深感抱歉！
 
 
 相信很多程序员朋友们都拥有了自己的技术博客。像 Hexo, Jekyll 这样的静态网站生成器甚是好用，而对于相对动态的内容，比如评论框，也有诸如多说和 Disqus 的工具可以使用。
@@ -25,7 +25,7 @@ labels: [博客, JavaScript, PHP]
 #### 1. 引入脚本
 
 {% highlight html %}
-<script src="http://jerry-cdn.b0.upaiyun.com/hit-kounter/hit-kounter-0.1.1.js"></script>
+<script src="https://jerry-cdn.b0.upaiyun.com/hit-kounter/hit-kounter-0.1.1.js"></script>
 {% endhighlight %}
 
 首先，在你的页面中引入这个脚本；由于你可能在每个页面都需要显示访问量，把它加入根模板也许是个不错的选择。
@@ -43,7 +43,7 @@ labels: [博客, JavaScript, PHP]
 如果你希望在文章列表页中显示各个页面的访问量分别是多少，那么你就要使用一个 url 来填充 `data-hk-page` 的属性值，就像这样：
 
 {% highlight html %}
-<span data-hk-page="http://jerryzou.com/posts/design-for-all-mobile-resolution/"> - </span>
+<span data-hk-page="https://jerryzou.com/posts/design-for-all-mobile-resolution/"> - </span>
 {% endhighlight %}
 
 那么 Hit Kounter 检测到这个标签以后，就会向服务器请求该地址的具体访问量，并最终将默认值 ` - ` 替换为实际值。可以参考[我博客中的例子](https://github.com/zry656565/heaven-blog/blob/5f19693ac0fb5723ef18d69b57106d2f95021400/index.html#L13)。

@@ -1,5 +1,5 @@
 ---
-date: 2015-01-01 02:29:10 UTC
+date: 2015-01-01 02:29:10 +0800
 title: Don't be evil ?
 description: 今天是2014年的最后一天，原本和欢欢说好一起吃晚饭。可是中行偏偏又要开什么新员工大会，从六点多一直开到九点多！结果只是不断地给新员工压力而已，于是就跟欢欢说起中行的各种恶性竞争与病态的价值观！然后～就扯到了谷歌的“不作恶”。
 permalink: /posts/dontBeEvil/
@@ -15,7 +15,7 @@ labels: [Google, 生活]
 
 这让我陷入了思考。我一直以来关注地都是谷歌在技术方面的成就，而忽视了其他方面。所以说，谷歌曾经在我心目中的形象是被神化的，它并不真实！我觉得我应该从“don't be evil”开始，重新审视一下这家公司。
 
-Don't be evil 是一句广为流传的体现谷歌价值观的话。在谷歌官网上的[《Ten things we know to be true》](http://www.google.com/about/company/philosophy/)第六条的正式描述是："You can make money without doing evil"。我节选了几句核心的话放在下面，其实也就是每一段的第一句啦：
+Don't be evil 是一句广为流传的体现谷歌价值观的话。在谷歌官网上的[《Ten things we know to be true》](https://www.google.com/about/company/philosophy/)第六条的正式描述是："You can make money without doing evil"。我节选了几句核心的话放在下面，其实也就是每一段的第一句啦：
 
 >
 - Google is a business...
